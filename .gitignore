@@ -1,0 +1,61 @@
+# Logs
+clinet/logs
+clinet/*.log
+clinet/npm-debug.log*
+clinet/yarn-debug.log*
+clinet/yarn-error.log*
+clinet/pnpm-debug.log*
+clinet/lerna-debug.log*
+
+clinet/node_modules
+clinet/dist
+clinet/dist-ssr
+clinet/*.local
+
+# Editor directories and files
+clinet/.vscode/*
+clinet/!.vscode/extensions.json
+clinet/.idea
+clinet/.DS_Store
+clinet/*.suo
+clinet/*.ntvs*
+clinet/*.njsproj
+clinet/*.sw?
+clinet/*.sln
+
+
+
+
+server/HELP.md
+server/target/
+server/!.mvn/wrapper/maven-wrapper.jar
+server/!**/src/main/**/target/
+server/!**/src/test/**/target/
+
+### STS ###
+server/.apt_generated
+server/.classpath
+server/.factorypath
+server/.project
+server/.settings
+server/.springBeans
+server/.sts4-cache
+
+### IntelliJ IDEA ###
+server/.idea
+server/*.iws
+server/*.iml
+server/*.ipr
+
+### NetBeans ###
+server//nbproject/private/
+server//nbbuild/
+server//dist/
+server//nbdist/
+server//.nb-gradle/
+server/build/
+server/!**/src/main/**/build/
+server/!**/src/test/**/build/
+
+### VS Code ###
+server/.vscode/
